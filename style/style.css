@@ -89,3 +89,67 @@ ul>li{
     font-weight: 400;
     padding-bottom: 10px;
 }
+
+/* my plan section */
+
+.plan-title{
+    text-align: center;
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.my-plan{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-bundle{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.plan-title{
+    color:  #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.ing{
+    padding-bottom: 16px;
+}
+
+.plan-description{
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+/* watch section */
+
+.watch{
+    max-width: 840px;
+    height: 300px;
+    margin: auto;
+    background-position: center;
+    padding: 59px 617px 147px 64px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%) , url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.watch-title{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* footer section */
