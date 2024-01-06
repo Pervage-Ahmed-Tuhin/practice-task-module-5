@@ -60,6 +60,12 @@ header{
 
 /* main section */
 
+.about-me{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
 .content{
     display: flex;
     justify-content: center;
@@ -91,6 +97,11 @@ ul>li{
 }
 
 /* my plan section */
+
+.my-plan-section{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
 
 .plan-title{
     text-align: center;
@@ -153,3 +164,56 @@ ul>li{
 }
 
 /* footer section */
+
+footer{
+    height: 577px;
+    background:  #151414;
+    color: white;
+    margin-top: 45px;
+}
+
+.main-box-footer{
+    max-width: 1850px; 
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 700px;
+}
+
+.future-subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.future-header{
+    padding-top: 25px;
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.subscribe-header{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.cm{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.email{
+    padding: 20px 30px 25px 30px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.image-box{
+    display: flex;
+    gap: 30px;
+}
